@@ -17,7 +17,7 @@ RUN npm install
 COPY . .
 
 # Build the Angular project
-#RUN ng build --prod
+RUN ng test
 RUN ng build --configuration=production
 
 
