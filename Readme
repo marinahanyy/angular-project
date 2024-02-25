@@ -1,0 +1,22 @@
+# Angular Application Deployment with Docker and Jenkins on AWS
+
+This guide provides step-by-step instructions for deploying your Angular application on an AWS instance using Docker and Jenkins.
+
+## Prerequisites
+
+Before you begin, ensure you have the following:
+
+1. AWS account with an EC2 instance
+2. Docker installed on your AWS instance
+3. Jenkins installed on your AWS instance
+
+## Steps
+
+### 1. Clone the Repository
+
+Clone your project repository to your AWS instance.
+
+```bash
+git clone https://github.com/your-username/your-angular-project.git
+cd your-angular-project
+Then enter to your jenkins server and run the build, it will successfully run the container and give you the link to it to see the website successfully wrapped inside it.
